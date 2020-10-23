@@ -6,7 +6,7 @@
 * java script
 * css design / rwd 
 * canvas
-* krpano(VR全景) 
+* krpano(VR全景)  
 
 # js技巧
 * 取值
