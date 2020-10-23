@@ -1,43 +1,6 @@
-﻿<krpano onstart="startup();" showerrors="false">
+﻿<krpano>
     <!-- <include url="../krpano-1.20.8/viewer/plugins/webvr.xml" /> -->
-    <preview>
-
-    <image>
-      <cube url="../vr_%s.jpg" />  
-      <cubestrip url="../vr.jpg" />
+    <image hfov="360.00" vfov="180.000000" voffset="0.00">
       <sphere url="../vr.jpg" />
-      <cylinder>
-      <flat>
-      <fisheye url="../vr.jpg"
-             fov="180.0"
-             align="yaw|pitch|roll"
-             crop="left|right|top|bottom"
-             lenscp="a|b|c|d|e"
-             />
-      <depthmap>
     </image>
-    
-    <view>
-    <area>
-    <display>
-    <control>
-    <cursors>
-    <autorotate>
-    <layer>
-      <layer>
-      ...
-    </layer>
-    <hotspot>
-    <style>
-    <events>
-    <action>
-    <contextmenu>
-    <network>
-    <memory>
-    <security>
-    <textstyle>
-    <data>
-    <scene>
-    <set>
-    <debug>
 </krpano>
