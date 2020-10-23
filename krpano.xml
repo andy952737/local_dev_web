@@ -1,8 +1,0 @@
-<krpano>
-    <scene name="pano" onstart="">
-        <image>
-            <cube url="vr_%s.jpg" />
-            <cubestrip url="vr.jpg" />
-        </image>
-    </scene>
-<krpano>
