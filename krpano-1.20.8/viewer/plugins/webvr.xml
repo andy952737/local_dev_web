@@ -46,6 +46,21 @@
 		set(hs.keep, true);
 		set(webvr.vr_cursor, 'hotspot[vr_cursor]');
 	</action>
+
+		<image>
+      <cube url="../vr_%s.jpg" />
+      <cubestrip url="../vr.jpg" /> 
+      <sphere url="../vr.jpg" />
+      <cylinder>
+      <flat>
+      <fisheye url="../vr.jpg"
+             fov="180.0"
+             align="yaw|pitch|roll"
+             crop="left|right|top|bottom"
+             lenscp="a|b|c|d|e"
+             />
+      <depthmap>
+    </image>
 	
 	<action name="webvr_load_vr_controller_hs" scope="private:VRCONTROLLERS" args="controllerstyle">
 		removehotspot('vr_controller_l');
