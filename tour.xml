@@ -22,7 +22,7 @@
 
 	<action name="webvr_show_fakemode_info">
 		<!-- hide the 'Simulated WebVR Mode' message from the webvr.xml by redefining this action -->
-	</action>
+	</action> 
 
 
 	<!-- settings for viewing the example offline (smaller images with lower quality, smaller files) -->
