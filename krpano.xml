@@ -1,16 +1,39 @@
 <krpano>  
-		<include url="webvr.xml" /> 
+		<include url="webvr.xml" />  
 		<!--  <include url="vtourskin.xml" /> --> 
 		<plugin name="WebVR" mobilevr_fake_support="true" />
 
     <!-- <include url="../krpano-1.20.8/viewer/plugins/webvr.xml" /> -->
-    <image hfov="360.00" vfov="180.000000" voffset="0.00">
-      <sphere url="vr2.jpg" />
-    </image> 
 
-  	<scene>
-			<!-- ... -->	    
-   	</scene>
+    <image>
+      <sphere url="vr2.jpg" />
+    </image>      
+
+  	<scene name='' scenetitle="" thumburl="" nowpic="" id="" onstart="pano_loaded_scene(2)">
+        <view hlookat="" vlookat="" fov="" maxpixelzoom="1.0" fovmax="150" limitview="auto" /<name />
+        <preview url='' />
+        <image hfov="360.00" vfov="180.000000" voffset="0.00" type="CUBE"  progressive="false">
+          <sphere url="vr2.jpg" />
+          <left url="" />
+          <front url="" />
+          <right url="" />
+          <back url="" />
+          <up url="" />
+          <down url="" />
+          <mobile>
+            <left url="" />
+            <front url="" />
+            <right url="" />
+            <back url="" />
+            <up url="" />
+            <down url="" />
+          </mobile>
+        </image>
+        <preview url=""/>
+        <image hfov="360.00" vfov="180.000000" voffset="0.00">
+          <sphere url="vr2.jpg" />
+        </image>
+    </scene>
 
    	<!-- pano 右鍵選單 --> 
     <contextmenu fullscreen="false" versioninfo="false">

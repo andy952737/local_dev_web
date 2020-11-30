@@ -2,9 +2,9 @@
 
 	<!--
 		An Example Depthmap-Tour of the 'Little Temple of Abu Simbel'.
-		- Panos and Depthmaps by Jordi Vallverdú (everpano.com)
+		- Panos and Depthmaps by Jordi Vallverdú (everpano.com) 
 		- Tour Design and Coding by krpano
-		- Music by Derek Fiechter (dbfiechter.bandcamp.com)
+		- Music by Derek Fiechter (dbfiechter.bandcamp.com) 
 		- Temple Information Texts from:
 			https://en.wikipedia.org/wiki/Abu_Simbel_temples
 			https://www.newworldencyclopedia.org/entry/Abu_Simbel
@@ -12,7 +12,7 @@
 
  
 	<!-- a little helper editor tool, change the if="0" to if="1" to use it -->
-	<include url="tour_edithelper.xml" if="0" />
+	<include url="krpano-1.20.8/viewer/plugins/tour_edithelper.xml" if="0" />
 
 	<!-- several helpers -->
 	<include url="krpano-1.20.8/viewer/plugins/contextmenu.xml" />
