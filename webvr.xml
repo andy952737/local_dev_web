@@ -31,7 +31,7 @@
 
 	<!-- the VR cursor hotspot -->
 	<style name="vr_cursor_style" 
-		url="webvr_vrcursor.png"
+		url="vr2.jpg"
 		visible="false"
 		enabled="false"
 		distorted="true"
@@ -81,7 +81,7 @@
 	</action>
 		
 	<style name="vrcontroller_laser" 
-			url="webvr_laser.png"
+			url="vr2.jpg"
 			distorted="true"
 			enabled="false"
 			visible="false"
