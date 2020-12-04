@@ -31,7 +31,7 @@
 			<!-- 取得全景 -->
 	    <preview url=""/>
 			<image hfov="270.00" vfov="145.000000" voffset="0.00">
-				<sphere url="vr.jpg" />
+				<sphere url="image/vr.jpg" />
 			</image>	
 
    	<!-- </scene> -->
