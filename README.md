@@ -9,4 +9,4 @@
 * krpano(krpano v1.20.8)   
 
 # krpano-logo 
-![image]("krpano.png")
+![image](krpano.png)
