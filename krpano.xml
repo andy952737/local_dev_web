@@ -7,9 +7,9 @@
   	<!-- <scene name='' scenetitle="" thumburl="" nowpic="" id="" onstart="">-->
 		  
 		  <!-- 預設場景座標 -->     
-  		<view hlookat="50" vlookat="150" fov="50" maxpixelzoom="1.0" fovmax="150" limitview="auto" />  
+  		<view hlookat="50" vlookat="150" fov="50" maxpixelzoom="1.0" fovmax="150" limitview="auto" /> 
 
-  		<!--  取得全景 && 使用迴圈 arrar撈資料 
+  			<!--  取得全景 '多張圖,需串接' && 使用迴圈 arrar撈資料  
 			<preview url='scene.preview_image_url' />
 			<image type="CUBE" progressive="false">
 				<left url="scene.normal_image_urls[:left]" />
@@ -28,13 +28,43 @@
 				</mobile>
 			</image> -->
 
-			<!-- 取得全景 -->
-	    <preview url=""/>
-			<image hfov="270.00" vfov="145.000000" voffset="0.00">
+			<!-- 取得全景 1張圖 -->
+	    	<preview url=""/>  
+			<image hfov="360.00" vfov="180.000000" voffset="0.00">
 				<sphere url="image/vr.jpg" />
 			</image>	
 
    	<!-- </scene> -->
+
+   	<!-- 熱點的參數 --> 
+   	<hotspot name=""
+         type="image"
+         url="image/icon_hotspot.png"
+         keep="false"
+         visible="true"
+         enabled="true"
+         handcursor="true"
+         cursor="pointer"
+         maskchildren="false"
+         zorder=""
+         style=""
+         ath="0.0" atv="0.0"
+         edge="center"
+         zoom="false"
+         distorted="false"
+         rx="0.0" ry="0.0" rz="0.0"
+         width="500" height="500"
+         scale="1.0"
+         rotate="0.0"
+         alpha="1.0"
+         onover.addevent=""
+         onhover.addevent=""
+         onout.addevent=""
+         ondown.addevent=""
+         onup.addevent=""
+         onclick.addevent=""
+         onloaded.addevent=""
+         />
 
    	<!-- pano 右鍵選單 --> 
     <contextmenu fullscreen="false" versioninfo="false">
