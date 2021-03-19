@@ -8,7 +8,7 @@
 		  
 		  <!-- 預設場景座標 -->     
   		<view hlookat="50" vlookat="150" fov="50" maxpixelzoom="1.0" fovmax="150" limitview="auto" /> 
-
+ 
   			<!--  取得全景 '多張圖,需串接' && 使用迴圈 arrar撈資料  
 			<preview url='scene.preview_image_url' />
 			<image type="CUBE" progressive="false">
@@ -36,7 +36,7 @@
 
    	<!-- </scene> -->
 
-   	<!-- 熱點的參數 --> 
+   	<!-- 熱點的參數 -->  
    	<hotspot name=""
          type="image"
          url="image/icon_hotspot.png"
@@ -53,7 +53,7 @@
          zoom="false"
          distorted="false"
          rx="0.0" ry="0.0" rz="0.0"
-         width="500" height="500"
+         width="80" height="80"
          scale="1.0"
          rotate="0.0"
          alpha="1.0"
@@ -68,7 +68,7 @@
 
    	<!-- pano 右鍵選單 --> 
     <contextmenu fullscreen="false" versioninfo="false">
-			<item name="全螢幕" caption="全螢幕" enabled="true" separate="true" onclick="switch(fullscreen);"/> 
-			<item name="Powered by Andy Pano" caption="Powered by Andy Pano" enabled="true" separate="true" onclick="openurl('https://codelove.online/')"/>    
-		</contextmenu>
+		<item name="全螢幕" caption="全螢幕" enabled="true" separate="true" onclick="switch(fullscreen);"/> 
+		<item name="Powered by Andy Pano" caption="Powered by Andy Pano" enabled="true" separate="true" onclick="openurl('https://codelove.online/')"/>    
+	</contextmenu> 
 </krpano>
